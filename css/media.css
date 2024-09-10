@@ -46,6 +46,9 @@
   
 }
 @media (max-width: 959px) {
+  .container {
+    max-width: 100%;
+  }
   .nav__header-menu--burger--text {
     display: none;
   }
@@ -172,6 +175,9 @@ font-size: 13px;
 .footer__inner-top {
   flex-direction: column;
   align-items: center;
+}
+.specialists__buttons {
+  display: none;
 }
 }
 @media (max-width: 479px) {

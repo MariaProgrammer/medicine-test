@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Блог</title>
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стоматология в Иванове</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalise.css" />
-    <link rel="stylesheet" href="css/global.css" />    
+    <link
+      rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/vrachi-main.css" />
-    <link rel="stylesheet" href="css/blog-main.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/blog-main.css" />    
+    <link rel="stylesheet" href="css/media.css" />    
     <link rel="stylesheet" href="css/media-blog.css" />
-</head>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
 <body>
 
-  <header class="header">     
+  <header class="header">
+     
     <nav class="nav__header">
       <div class="nav__header-contacts">
         <div class="nav__header-contacts--tel">
@@ -31,18 +39,21 @@
 
       <div class="nav__header-menu">
         <div class="nav__header-logo">
+          <a href="index.html" class="header-logo">
           <img src="img/logo.png" alt="" class="nav__header-logo__img">
+          </a>
           <div class="nav__header-logo--text">
             <p class="logo__text-title">Денталия</p>
             <p class="logo__text-subtitle">Стоматологическая клиника</p>
           </div>
+        
         </div>
         
         <ul class="nav__header-menu--list">
-          <li class="nav__header-menu--item"><a href="#" class="nav__header-menu--link">Услуги</a></li>
+          <li class="nav__header-menu--item"><a href="service.html" class="nav__header-menu--link">Услуги</a></li>
           <li class="nav__header-menu--item"><a href="#" class="nav__header-menu--link">Цены</a></li>
-          <li class="nav__header-menu--item"><a href="#" class="nav__header-menu--link">Отзывы</a></li>
-          <li class="nav__header-menu--item"><a href="#" class="nav__header-menu--link">Акции</a></li>
+          <li class="nav__header-menu--item"><a href="#reviews-dentalia" class="nav__header-menu--link">Отзывы</a></li>
+          <li class="nav__header-menu--item"><a href="akcii.html" class="nav__header-menu--link">Акции</a></li>
           <li class="nav__header-menu--item"><a href="#" class="nav__header-menu--link">Контакты</a></li>
         </ul>
         <div class="nav__header-menu--grade">
@@ -64,8 +75,10 @@
           </button>
         </div>
       </div>
-      <div class="nav__shadow"></div>        
-    </nav>   
+      <div class="nav__shadow"></div>
+      
+    </nav>
+ 
 </header>
 <section class="submenu">
   <div class="container">
@@ -334,6 +347,6 @@
 
 </footer>
 
-  
+<script src="js/main.js"></script>
 </body>
 </html>

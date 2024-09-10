@@ -10,26 +10,41 @@
   justify-content: space-between;
   margin-bottom: 32px;
 }
+.specialists__inner-wrap {
+  position: relative;
+}
 .reviews__top--title {
 }
 
 .specialists__buttons {
+  
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: fit-content;
+  height: 50px;
+  z-index: 150;
 }
 .specialists__button {
+  display: inline-block;
   margin-left: 24px;
   border: 1px solid var(--new-main);
-border-radius: 12px;
-width: 50px;
-height: 50px;
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.specialists__button svg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
-.specialists__inner-cards {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
 .specialists__inner-card {
   display: flex;
   flex-direction: column;
@@ -47,9 +62,9 @@ height: 50px;
 }
 .specialists__inner-subtitle {
   font-weight: 600;
-font-size: 20px;
-color: var(--txt-black);
-margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--txt-black);
+  margin-bottom: 10px;
 }
 .specialists__inner-linie {
   height: 2px;
@@ -59,7 +74,6 @@ margin-bottom: 10px;
 }
 .specialists__inner-text {
   font-weight: 400;
-font-size: 16px;
-color: var(--txt-black);
+  font-size: 16px;
+  color: var(--txt-black);
 }
-
