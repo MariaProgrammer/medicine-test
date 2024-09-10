@@ -1,12 +1,10 @@
-.hero__inner {
-  position: relative;
-}
+
 
 .burger-menu {
   display: none;
   position: absolute;
   right: 0;
-  bottom: -302px;
+  bottom: -458px;
   z-index: 500;
 }
 

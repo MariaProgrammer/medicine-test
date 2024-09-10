@@ -1,4 +1,6 @@
-
+.header {
+  position: relative;
+}
 .container {
 }
 .nav__header {
