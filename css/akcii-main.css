@@ -1,0 +1,35 @@
+.stocks {
+}
+
+.stocks__title {
+  font-weight: 600;
+font-size: 24px;
+}
+.stocks__inner {
+  margin-bottom: 70px;
+}
+.stocks__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 32px;
+}
+.stocks__card {
+}
+
+.stocks__card-subtitle {
+  font-weight: 600;
+font-size: 24px;
+margin-bottom: 6px;
+}
+.stocks__card-text {
+  font-weight: 400;
+font-size: 16px;
+margin-bottom: 24px;
+}
+
+.stocks__sale {
+  margin: 0;
+
+}
