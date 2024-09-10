@@ -9,12 +9,17 @@ const services = document.getElementById('services');
 
 const hoverMenu = document.querySelector('.hover-menu');
 
+const hoverMenuCross = document.querySelector('.hover-menu__cross');
+
 burger.addEventListener("click", () => {
 	burgerMenu.classList.toggle('active');    
   // document.body.classList.toggle("stop-scroll");    
 });
 burgerCross.addEventListener("click", () => {
 	burgerMenu.classList.remove('active'); 
+});
+hoverMenuCross.addEventListener("click", () => {
+	hoverMenu.classList.remove('active'); 
 });
 services.addEventListener("mouseover", () => {
 	hoverMenu.classList.add('active');    
