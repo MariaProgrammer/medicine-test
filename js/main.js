@@ -1,13 +1,44 @@
 // Burger
-// const burger = document.getElementById('burger');
+const burger = document.querySelector('.burger');
 
-// const nav = document.querySelector('.nav-burger');
+const burgerMenu = document.querySelector('.burger-menu');
 
-// burger.addEventListener("click", () => {
-//     nav.classList.toggle('nav--active');
-//     burger.classList.toggle('burger--active');
-//     document.body.classList.toggle("stop-scroll");    
-// });
+const burgerCross = document.querySelector('.burger-menu__cross'); 
+
+const services = document.getElementById('services');
+
+const hoverMenu = document.querySelector('.hover-menu');
+
+burger.addEventListener("click", () => {
+	burgerMenu.classList.toggle('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+burgerCross.addEventListener("click", () => {
+	burgerMenu.classList.remove('active'); 
+});
+services.addEventListener("mouseover", () => {
+	hoverMenu.classList.add('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+
+
+hoverMenu.addEventListener("mouseover", () => {
+	hoverMenu.classList.add('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+hoverMenu.addEventListener("mouseout", () => {
+	hoverMenu.classList.remove('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+
+//Popup
+
+const btns = document.querySelectorAll('.btn') {
+	
+}
+
+
+
 
 //Swiper
 const swiper1 = new Swiper('.swiper1', {
