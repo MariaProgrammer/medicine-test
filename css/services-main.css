@@ -1,7 +1,7 @@
 /* hero */
 .hero__inner-wrap {
   margin-bottom: 70px;
- 
+  margin-top: 32px;
 }
 .hero__subtitle-container {
   display: flex;

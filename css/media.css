@@ -224,6 +224,10 @@ font-size: 12px;
     font-weight: 400;
 font-size: 14px;
   }
+  .hero__button, .form__input {
+    max-width: 100%;
+    width: 100%;
+  }
   .nav__header-contacts {
     display: flex;
     flex-direction: column;

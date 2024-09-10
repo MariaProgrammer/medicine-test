@@ -100,5 +100,40 @@ const swiper1 = new Swiper('.swiper1', {
 			mousewhell: true,
 			keyboard: true,
 			});
+		const swiper4 = new Swiper('.swiper4', {
+			direction: 'horizontal',
+			loop: true,
+			slidesPerView: 3,
+			spaceBetween: 54,	
+			// navigation: {	
+			// 	nextEl: '.swiper-button-next3',			
+			// 	prevEl: '.swiper-button-prev3',
+				
+			// },
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 0
+				},
+				// when window width is >= 480px
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 30
+				},
+				// when window width is >= 640px
+				960: {
+					slidesPerView: 3,
+					spaceBetween: 30
+				},
+				
+			},
+			// pagination:	{
+			// 	el: '.swiper-pagination',
+			// 	clickable: true,
+			// },
+			mousewhell: true,
+			keyboard: true,
+			});
 
 
