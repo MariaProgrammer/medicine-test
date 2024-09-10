@@ -1,0 +1,126 @@
+.submenu {
+}
+.submenu__inner {
+  padding: 32px 0;
+}
+.submenu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.submenu-list-item {
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  padding: 2px 4px 4px 4px;
+  /* min-width: 75px; */
+  /* height: 22px; */
+  text-align: center;
+  margin-right: 10px;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 13px;
+}
+.submenu-list-item:hover,
+.submenu-list-item:focus,
+.submenu-list-item:active {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+}
+.submenu-list-item-lastchild {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+
+}
+
+.submenu-list-link {
+  
+}
+
+.specialists {
+}
+
+.specialists__inner {
+  
+  margin-bottom: 70px;
+}
+.specialists__cards {
+}
+.specialists__card-title {
+  font-weight: 600;
+font-size: 34px;
+margin-bottom: 30px;
+}
+.specialists__card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.specialists__card-left {
+  flex: 1 0 262px;
+  width: 262px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.specialists__card-left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.specialists__button {
+  width: 60px;
+  height: 80px;
+  border: none;
+
+}
+
+.specialists__card-subtitle {
+  font-weight: 600;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.specialists__card-linie {
+  width: 100%;
+  height: 2px;
+  background-color: var(--new-main);
+  margin-bottom: 10px;
+}
+.specialists__card-text {
+  font-weight: 400;
+font-size: 16px;
+}
+.text-right {
+  margin-bottom: 30px;
+}
+.specialists__card-right {
+  flex: 1 1 auto;
+}
+.specialists__card-certificate {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.card-certificate-img {
+  width: 100%;
+  height: 100%;
+}
+.specialists__card-certificate-969 {
+  display: none;
+}
+.card-certificate-img {
+  display: block;
+  width: 100%;  
+  height: 100%;
+  object-fit: cover;
+  
+}
+.specialists__button {
+  margin-left: 0;
+}

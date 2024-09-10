@@ -1,0 +1,30 @@
+.question {
+}
+
+.question__inner {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.ratings__inner-title {
+}
+
+.question__inner-title {
+}
+.form {
+}
+.question__form {
+  margin-bottom: 10px;
+}
+.form__input {
+}
+.question__input {
+  margin-bottom: 0;
+}
+.hero__button {
+}
+
+.question__inner-text {
+  font-weight: 400;
+font-size: 14px;
+color: var(--ligth-gray);
+}

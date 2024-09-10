@@ -1,0 +1,32 @@
+.about {
+}
+
+.about__inner {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  gap: 31px;
+}
+.about__inner--left {
+  max-width: 654px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__inner--text {
+  font-weight: 400;
+font-size: 16px;
+color: var(--txt-black);
+margin-bottom: 30px;
+}
+.about__inner--right {
+  width: 100%;
+  height: 100%;
+}
+.about__inner-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

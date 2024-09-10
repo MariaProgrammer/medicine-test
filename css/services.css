@@ -1,0 +1,34 @@
+.hero__subtitle {
+}
+.services__accordion {
+  margin-bottom: 70px;
+}
+
+.services__accordion-item {
+  display: flex;
+  padding: 27px 30px;
+  margin-bottom: 30px;
+}
+
+.services__accordion-item:last-child {
+  margin-bottom: 0;
+}
+.servicse__button {
+}
+
+.servicse__button-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.services__accordion-item--link {
+  margin-left: 30px;
+  
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.services__accordion-item--link:hover, .services__accordion-item--link:focus, .services__accordion-item--link:active {
+  cursor: pointer;
+  color: var(--new-main);
+}
