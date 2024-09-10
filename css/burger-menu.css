@@ -5,8 +5,9 @@
 .burger-menu {
   display: none;
   position: absolute;
-  right: -15px;
-  top: -31px;
+  right: 0;
+  bottom: -302px;
+  z-index: 500;
 }
 
 .burger-menu__inner {

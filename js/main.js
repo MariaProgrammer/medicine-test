@@ -33,11 +33,7 @@ hoverMenu.addEventListener("mouseout", () => {
 
 //Popup
 
-const btns = document.querySelectorAll('.btn') {
-	
-}
-
-
+const btns = document.querySelectorAll('.btn');
 
 
 //Swiper

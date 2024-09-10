@@ -43,7 +43,7 @@
   .footer-menu--grade {
     order:2;
   }
-  
+
   
 }
 @media (max-width: 959px) {
@@ -182,6 +182,9 @@ font-size: 13px;
 }
 }
 @media (max-width: 479px) {
+  burger-menu {
+    bottom: -255px;
+  }
   .logo__text-title {
     font-weight: 600;
 font-size: 34px;
