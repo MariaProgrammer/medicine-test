@@ -3,6 +3,7 @@
 
 .trust__inner {
   margin-bottom: 70px;
+  position: relative;
 }
 .trust__title {
   margin-bottom: 32px;
@@ -61,12 +62,28 @@
   margin-bottom: 20px;
 }
 .trust__buttons {
-  align-self: flex-end;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ z-index: 100;
+ 
 }
 .trust__button {
+  position: relative;
+  display: inline-block;
   margin-left: 24px;
   border: 1px solid var(--new-main);
 border-radius: 12px;
 width: 50px;
 height: 50px;
+}
+.trust__button svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
