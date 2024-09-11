@@ -66,6 +66,10 @@
   color: var(--txt-black);
   margin-bottom: 10px;
 }
+
+.specialists__inner-subtitle:hover, .specialists__inner-subtitle:focus, .specialists__inner-subtitle:active {
+  color: var(--new-main);
+}
 .specialists__inner-linie {
   height: 2px;
   width: 100%;
