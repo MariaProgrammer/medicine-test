@@ -7,9 +7,12 @@
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 1500;
+  z-index: 100;
+  
+  
 }
 .thanks__popup-inner {
+  
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -18,7 +21,7 @@
   right: 0;
   bottom: 0;
   background: rgba(45, 44, 44, 0.6);
-  z-index: 1000;
+  z-index: 500;
   position: relative;
 }
 .thanks__popup-main {
@@ -36,6 +39,7 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  z-index: 800;
 }
 .thanks__popup-title {
   font-weight: 600;
@@ -43,12 +47,14 @@ font-size: 16px;
 text-align: center;
 color: var(--txt-black);
 margin-bottom: 24px;
+z-index: 900;
 }
 .thanks__popup-text {
   font-weight: 400;
 font-size: 14px;
 text-align: center;
 color: var(--txt-black);
+z-index: 900;
 }
 .thanks__popup-button {
   width: 40px;
@@ -63,6 +69,7 @@ color: var(--txt-black);
   -o-transform: translate(50%, 50%);
   background: url('../img/cross.png');
   background-repeat: no-repeat;
+  z-index: 900;
 }
 
 .thanks__popup-button:hover {

@@ -6,10 +6,14 @@ const services = document.getElementById('services');
 const hoverMenu = document.querySelector('.hover-menu');
 const hoverMenuCross = document.querySelector('.hover-menu__cross');
 const burgerButton = document.querySelector('.burger__button');
-const btns = document.querySelectorAll('.btn');
 const thanksPopupButton = document.querySelector('.thanks__popup-button');
-const thanksPopup = document.querySelector('.thanks__popup');
+const thanksPopup = document.querySelector('.thanks__popup-inner');
 const heroButton = document.querySelector('.hero__button');
+// const questionButton = document.querySelector('.question__button');
+console.log(heroButton);
+
+
+
 
 
 burger.addEventListener("click", () => {
@@ -44,16 +48,19 @@ hoverMenuCross.addEventListener("click", () => {
 
 
 //Popup
-
+function activePopup() {	
+	thanksPopup.classList.add('active');		
+  document.body.classList.add("stop-scroll");	    
+}
 thanksPopupButton.addEventListener("click", () => {
 	thanksPopup.classList.remove('active');
-	document.body.classList.remove("stop-scroll"); 
+	document.body.classList.remove("stop-scroll");
+	
 });
+heroButton.addEventListener("click", activePopup);
+// questionButton.addEventListener("click", activePopup);
 
-heroButton.addEventListener("click", () => {
-	thanksPopup.classList.add('active');		
-  document.body.classList.add("stop-scroll");    
-});
+
 
 
 

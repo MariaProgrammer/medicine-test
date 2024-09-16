@@ -20,8 +20,28 @@
 .question__input {
   margin-bottom: 0;
 }
-.hero__button {
+.question__button {
+  border-radius: 6px;
+  padding: 14px 60px;
+  width: 260px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--new-main);
+  font-size: 16px;
+  color: var(--white);
+
 }
+
+  .question__button:hover {
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: var(--dark-main);
+  
+  }
+  .question__button:active {
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: var(--dark-main);
+  
+  }
 
 .question__inner-text {
   font-weight: 400;
