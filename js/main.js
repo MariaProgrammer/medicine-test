@@ -10,7 +10,10 @@ const thanksPopupButton = document.querySelector('.thanks__popup-button');
 const thanksPopup = document.querySelector('.thanks__popup-inner');
 const heroButton = document.querySelector('.hero__button');
 // const questionButton = document.querySelector('.question__button');
-console.log(heroButton);
+const footerPopup = document.querySelector('.footer__popup');
+const footerPopupButton = document.querySelector('.footer__popup-button');
+const aboutClinica = document.querySelector('.about__clinica');
+
 
 
 
@@ -60,6 +63,27 @@ thanksPopupButton.addEventListener("click", () => {
 heroButton.addEventListener("click", activePopup);
 // questionButton.addEventListener("click", activePopup);
 
+footerPopupButton.addEventListener('click', () => {
+	footerPopup.remove('active');
+	location.reload()
+})
+
+	footerPopup.addEventListener("mouseover", () => {	
+		footerPopup.classList.add('active');		
+	});	
+
+	aboutClinica.addEventListener("mouseover", () => {	
+		footerPopup.classList.add('active');
+		
+});
+
+ 
+
+	
+
+
+
+
 
 
 
@@ -91,7 +115,7 @@ const swiper1 = new Swiper('.swiper1', {
       slidesPerView: 3,
       spaceBetween: 12
     },
-		1279: {
+		1280: {
       slidesPerView: 3,
       spaceBetween: 30
     }

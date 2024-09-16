@@ -1,8 +1,7 @@
 .header {
   position: relative;
 }
-.container {
-}
+
 .nav__header {
   
 }
@@ -49,11 +48,13 @@
 }
 .nav__header-menu {
   height: 105px;
-  max-width: 1140px;
+  max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;  
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
+  position: relative;  
 }
 .nav__header-menu--burger{
   border: 1px solid var(--new-main);

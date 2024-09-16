@@ -118,8 +118,9 @@ button:active {
 /* ------------------------Служебные классы------------------------------- */
 
 .container {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
   /* padding: 0 15px; */
 }
 /* .burger {

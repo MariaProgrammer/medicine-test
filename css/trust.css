@@ -1,15 +1,18 @@
 .trust {
 }
-
+.swiper2 {
+  padding-bottom: 35px;
+  position: relative;
+}
 .trust__inner {
   margin-bottom: 70px;
+  
   position: relative;
 }
 .trust__title {
   margin-bottom: 32px;
 }
-.title {
-}
+
 .trust__inner-wrap {
   display: flex;
   align-items: stretch;
@@ -20,6 +23,7 @@
   flex: 1;
   width: 100%;
   align-items: start;
+  align-items: stretch;
  
 }
 .trust__inner-wrap--left video{
@@ -49,6 +53,7 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  line-height: 150%;
 }
 .trust__inner-wrap--title {
   color: var(--txt-black);
