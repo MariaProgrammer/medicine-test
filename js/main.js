@@ -1,20 +1,24 @@
 // Burger
 const burger = document.querySelector('.burger');
-
 const burgerMenu = document.querySelector('.burger-menu');
-
-const burgerCross = document.querySelector('.burger-menu__cross'); 
-
+const burgerCross = document.querySelector('.burger-menu__cross');
 const services = document.getElementById('services');
-
 const hoverMenu = document.querySelector('.hover-menu');
-
 const hoverMenuCross = document.querySelector('.hover-menu__cross');
+const burgerButton = document.querySelector('.burger__button');
+const btns = document.querySelectorAll('.btn');
+const thanksPopupButton = document.querySelector('.thanks__popup-button');
+const thanksPopup = document.querySelector('.thanks__popup');
+const heroButton = document.querySelector('.hero__button');
+
 
 burger.addEventListener("click", () => {
-	burgerMenu.classList.toggle('active');    
+	burgerMenu.classList.toggle('active');
+	burgerButton.classList.toggle('active');    
+	burger.classList.toggle('active');    
   // document.body.classList.toggle("stop-scroll");    
 });
+
 burgerCross.addEventListener("click", () => {
 	burgerMenu.classList.remove('active'); 
 });
@@ -31,14 +35,27 @@ hoverMenu.addEventListener("mouseover", () => {
 	hoverMenu.classList.add('active');    
   // document.body.classList.toggle("stop-scroll");    
 });
-hoverMenu.addEventListener("mouseout", () => {
-	hoverMenu.classList.remove('active');    
+hoverMenuCross.addEventListener("click", () => {	
+	hoverMenu.classList.remove('active');
+	    
   // document.body.classList.toggle("stop-scroll");    
 });
 
+
+
 //Popup
 
-const btns = document.querySelectorAll('.btn');
+thanksPopupButton.addEventListener("click", () => {
+	thanksPopup.classList.remove('active');
+	document.body.classList.remove("stop-scroll"); 
+});
+
+heroButton.addEventListener("click", () => {
+	thanksPopup.classList.add('active');		
+  document.body.classList.add("stop-scroll");    
+});
+
+
 
 
 //Swiper
@@ -168,4 +185,4 @@ const swiper1 = new Swiper('.swiper1', {
 			keyboard: true,
 			});
 
-
+			

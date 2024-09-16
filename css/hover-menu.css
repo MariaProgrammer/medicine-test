@@ -35,8 +35,8 @@ background: #fff;
 }
 
 .hover-menu__cross {
-  width: 32px;
-  height: 32px;  
+  width: 40px;
+  height: 40px;  
   position: absolute;
   right: 0;
   top: 0;
@@ -45,15 +45,19 @@ background: #fff;
   -moz-transform: translate(50%, 50%);
   -ms-transform: translate(50%, 50%);
   -o-transform: translate(50%, 50%);
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+}
+.hover-menu__cross:hover {
+  background: url('../img/cross__hover.png');  
+}
+.hover-menu__cross:active {
+  background: url('../img/cross__active.png') no-repeat;
+  
 }
 
-.hover-menu__img {
-  display: block;  
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 
-}
+
 .hover-menu__cards {
   width: 100%;
   display: grid;

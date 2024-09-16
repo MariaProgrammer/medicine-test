@@ -34,6 +34,17 @@ margin-right: 24px;
   margin-right: 0;
 }
 
+.reviews__button:hover {
+  background: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+.reviews__button:active {
+  background: var(--white);
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  
+}
+
 
 .reviews__bottom-card {
   border: 1px solid var(--ligth-gray);
