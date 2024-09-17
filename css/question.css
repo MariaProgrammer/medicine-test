@@ -10,9 +10,6 @@
   justify-content: center;
  
 }
-.ratings__inner-title {
-
-}
 
 .question__inner-title {
   margin-bottom: 0;
@@ -31,8 +28,7 @@
 .question__input { 
   border: 1px solid var(--ligth-gray);
   border-radius: 6px;
-  padding: 9px 60px;
- 
+  padding: 9px 60px; 
   height: 50px;
   background: var(--white);
   padding: 14px 16px;
@@ -74,6 +70,6 @@
 
 .question__inner-text {
   font-weight: 400;
-font-size: 14px;
-color: var(--ligth-gray);
+  font-size: 14px;
+  color: var(--ligth-gray);
 }

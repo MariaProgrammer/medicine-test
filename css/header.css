@@ -5,6 +5,9 @@
 .nav__header {
   
 }
+.header-logo {
+  display: block;
+}
 .nav__header-contacts {
   max-width: 1140px;
   margin: 0 auto;
@@ -85,11 +88,13 @@
 
 .nav__header-logo {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
   
 }
 .nav__header-logo__img {
-  display: block;
+  display: inline-block;
   width: 60px;
   object-fit: contain;
 }
@@ -97,14 +102,18 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
+  
 }
 .logo__text-title {
+  display: inline-block;
   font-family: var(--second-family), serif;
   font-size: 44px;
   color: var(--new-main);
+  margin-bottom: 0px;
 }
 .logo__text-subtitle {
+  display: inline-block;
   font-family: var(--second-family), serif;
   font-size: 14px;
   color: var(--new-main);

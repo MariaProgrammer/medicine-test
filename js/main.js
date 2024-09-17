@@ -14,6 +14,11 @@ const footerPopup = document.querySelector('.footer__popup');
 const footerPopupButton = document.querySelector('.footer__popup-button');
 const aboutClinica = document.querySelector('.about__clinica');
 
+const footerMenuCross = document.querySelector('.footer-menu__cross');
+const footerBurgerMenu = document.querySelector('.footer__burger-menu');
+const footerBurger = document.querySelector('.footer-burger__button');
+
+
 
 
 
@@ -24,6 +29,22 @@ burger.addEventListener("click", () => {
 	burgerButton.classList.toggle('active');    
 	burger.classList.toggle('active');    
   // document.body.classList.toggle("stop-scroll");    
+});
+
+footerBurger.addEventListener("click", () => {
+	console.log('done');
+	
+	footerBurgerMenu.classList.toggle('active');
+	footerBurger.classList.toggle('active');
+	footerBurger.classList.toggle('hover');
+	    
+	// burger.classList.toggle('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+footerMenuCross.addEventListener("click", () => {
+	footerBurgerMenu.classList.remove('active');
+	footerBurger.classList.remove('active');
+	footerBurger.classList.remove('hover'); 
 });
 
 burgerCross.addEventListener("click", () => {

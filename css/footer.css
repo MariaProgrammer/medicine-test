@@ -12,6 +12,7 @@ background: var(--white);
   display: flex;
   justify-content: space-between;
   padding: 30px 0 60px 0;
+  position: relative;
   
 
   
@@ -117,12 +118,78 @@ color: var(--ligth-gray);
   width: 25px;
   height: 25px;
 }
-.footer__burger {
-}
+
 
 .footer__menu1279 {
   display: none;
 }
+.footer__burger-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 152px;
+  z-index: 500;
+
+}
+
+
+
+.footer-menu__detail {
+  width: 40px;
+  height: 23px;
+  position: absolute;
+  bottom: -23px;
+  left: 15px;
+}
+
+.footer-menu__cross {
+  width: 40px;
+  height: 40px;  
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+}
+.footer-menu__cross:hover {
+  background: url('../img/cross__hover.png');  
+}
+.footer-menu__cross:active {
+  background: url('../img/cross__active.png') no-repeat;
+  
+}
+
+.footer-burger__button {
+  width: 100%;
+  border: 1px solid var(--new-main);
+  border-radius: 6px;
+  padding: 14px 10px;
+  width: 256px;
+  height: 74px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.footer-burger__button.hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--new-main);
+  
+}
+.footer-burger__button.active {
+  color: #fff;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--dark-main);
+}
+
+.footer-burger__button.active svg line{
+  fill: #fff;
+  stroke: #fff;
+}
+
 
 .footer__popup {
   display: none;
@@ -190,6 +257,11 @@ margin-bottom: 4px;
 }
 
 .footer__popup.active {
+  display: block;
+  
+}
+
+.footer__burger-menu.active {
   display: block;
   
 }
