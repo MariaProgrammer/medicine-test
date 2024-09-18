@@ -302,3 +302,21 @@ color: var(--txt-black);
   top: 0;
   width: 100%;
 }
+.hero__ramka-links {
+  align-items: center;
+  justify-content: flex-start;
+}
+.service-item { 
+  flex: 0 1 auto;
+  white-space: nowrap;
+   
+}
+.service-item--last {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid var(--new-main);
+  color: var(--new-main);  
+  
+}
+

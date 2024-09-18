@@ -21,6 +21,10 @@
   -o-border-radius: 6px;
   box-shadow: none;
 }
+.service-item--last {
+  color: var(--new-main);
+  border: 1px solid var(--new-main);
+}
 .hero__inner--services {
   display: flex;
   align-items: center;
@@ -31,6 +35,9 @@
 .hero__ramka-services {
  display: flex;
  flex-direction: column;
+ max-width: 620px;
+ align-self: flex-start;
+ margin-top: 12px;
   
 
 }
@@ -39,14 +46,19 @@
   
 }
 .hero__inner-right--services {
-  
-  padding: 90px 60px;
+  max-width: 430px;
+  padding: 0px 60px;
 }
 .right-services__img {
   display: block;
   width: 310px;
   height: 100%;
   object-fit: contain;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 /* ABOUT */

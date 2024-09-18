@@ -48,7 +48,9 @@ footerMenuCross.addEventListener("click", () => {
 });
 
 burgerCross.addEventListener("click", () => {
-	burgerMenu.classList.remove('active'); 
+	burgerMenu.classList.remove('active');
+	burger.classList.remove('active');  
+	burgerButton.classList.remove('active');  
 });
 hoverMenuCross.addEventListener("click", () => {
 	hoverMenu.classList.remove('active'); 
@@ -81,7 +83,7 @@ thanksPopupButton.addEventListener("click", () => {
 	document.body.classList.remove("stop-scroll");
 	
 });
-heroButton.addEventListener("click", activePopup);
+// heroButton.addEventListener("click", activePopup);
 // questionButton.addEventListener("click", activePopup);
 
 footerPopupButton.addEventListener('click', () => {

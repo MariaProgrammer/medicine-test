@@ -252,6 +252,7 @@
     margin-bottom: 24px;
   }
 
+  
   .question__form {
     margin-bottom: 10px;
     display: flex;
@@ -275,8 +276,44 @@
     margin-left: 0;
     margin-bottom: 30px;
   }
+  .hero__inner-wrap {
+    margin-bottom: 64px;
+  }
   .hero__subtitle-main {
     margin-bottom: 12px;
+  }
+  .about__service__inner {
+    margin-bottom: 64px;
+  }
+  .reviews__top {
+    margin-bottom: 64px;
+  }
+  .reviews__inner {
+    margin-bottom: 64px;
+  }
+  .trust__inner-wrap {
+    margin-bottom: 64px;
+  }
+  .ratings__inner {
+    margin-bottom: 64px;
+  }
+  .about__inner {
+    margin-bottom: 64px;
+  }
+  .about__inner--text:last-of-type {
+    margin-bottom: 0;
+  }
+  .specialists__inner-top {
+    margin-bottom: 32;
+  }
+  .specialists__inner {
+    margin-bottom: 64px;
+  }
+  .question__inner {
+    margin-bottom: 64px;
+  }
+  .address__inner {
+    margin-bottom: 64px;
   }
   
   
@@ -379,6 +416,9 @@ font-size: 12px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
+  .hero__inner-wrap {
+    margin-bottom: 32px;
+  }
 
   .reviews__inner {
     margin-bottom: 32px;
@@ -408,6 +448,39 @@ font-size: 12px;
 
   .question__form {
     gap: 12px;
+  }
+  .about__service__inner {
+    margin-bottom: 32px;
+  }
+  .reviews__top {
+    margin-bottom: 32px;
+  }
+  .reviews__inner {
+    margin-bottom: 32px;
+  }
+  .trust__inner-wrap {
+    margin-bottom: 32px;
+  }
+  .ratings__inner {
+    margin-bottom: 32px;
+  }
+  .about__inner {
+    margin-bottom: 32px;
+  }
+  .about__inner--text:last-of-type {
+    margin-bottom: 0;
+  }
+  .specialists__inner-top {
+    margin-bottom: 0;
+  }
+  .specialists__inner {
+    margin-bottom: 32px;
+  }
+  .question__inner {
+    margin-bottom: 32px;
+  }
+  .address__inner {
+    margin-bottom: 32px;
   }
   
   

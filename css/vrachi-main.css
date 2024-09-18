@@ -3,13 +3,11 @@
 .submenu__inner {
   padding: 32px 0;
   position: relative;
+  display: flex;
+  flex-wrap: nowrap;
   
 }
-.submenu-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
+
 .submenu-list-item {
   border: 1px solid var(--gray);
   border-radius: 6px;
@@ -17,7 +15,7 @@
   /* min-width: 75px; */
   /* height: 22px; */
   text-align: center;
-  margin-right: 10px;
+  margin-right: 6px;
   color: var(--gray);
   font-weight: 400;
   font-size: 13px;
@@ -33,6 +31,20 @@
   color: var(--new-main);
 
 }
+.service-item { 
+  flex: 0 1 auto;
+  white-space: nowrap;
+   
+}
+.service-item--last {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid var(--new-main);
+  color: var(--new-main);  
+  
+}
+
 
 .submenu-list-link {
   
