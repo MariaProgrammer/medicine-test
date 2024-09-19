@@ -6,10 +6,7 @@ const services = document.getElementById('services');
 const hoverMenu = document.querySelector('.hover-menu');
 const hoverMenuCross = document.querySelector('.hover-menu__cross');
 const burgerButton = document.querySelector('.burger__button');
-const thanksPopupButton = document.querySelector('.thanks__popup-button');
-const thanksPopup = document.querySelector('.thanks__popup-inner');
-const heroButton = document.querySelector('.hero__button');
-// const questionButton = document.querySelector('.question__button');
+
 const footerPopup = document.querySelector('.footer__popup');
 const footerPopupButton = document.querySelector('.footer__popup-button');
 const aboutClinica = document.querySelector('.about__clinica');
@@ -74,18 +71,6 @@ hoverMenuCross.addEventListener("click", () => {
 
 
 //Popup
-function activePopup() {	
-	thanksPopup.classList.add('active');		
-  document.body.classList.add("stop-scroll");	    
-}
-thanksPopupButton.addEventListener("click", () => {
-	thanksPopup.classList.remove('active');
-	document.body.classList.remove("stop-scroll");
-	
-});
-// heroButton.addEventListener("click", activePopup);
-// questionButton.addEventListener("click", activePopup);
-
 footerPopupButton.addEventListener('click', () => {
 	footerPopup.remove('active');
 	location.reload()
@@ -100,11 +85,32 @@ footerPopupButton.addEventListener('click', () => {
 		
 });
 
- 
-
-	
 
 
+//кнопка отправки
+
+const btn1 = document.querySelector('.btn1');
+const btn2 = document.querySelector('.btn2');
+const thanksButton = document.querySelector('.thanks__popup-button');
+const thanksPopup = document.querySelector('.thanks__popup');
+// console.log(heroButton);
+// console.log(btn1, btn2);
+
+thanksPopup.addEventListener('click', () => {
+	thanksPopup.classList.remove('active');
+});
+function addClass(event) {
+	event.preventDefault();	
+	thanksPopup.classList.add('active');
+}
+btn1.addEventListener('click', addClass, false);
+btn2.addEventListener('click', addClass, false);
+
+const question = document.querySelector('.question');
+console.log(question);
+
+const scroll = question.scrollTop;
+console.log(scroll);
 
 
 

@@ -146,10 +146,10 @@
     <section class="submenu">
   <div class="container">
     <div class="submenu__inner">
-      <ul class="submenu-list">
-        <li class="submenu-list-item"><a href="index.html" class="submenu-list-link">Главная </a></li>        
-        <li class="submenu-list-item submenu-list-item-lastchild">Статьи</li>
-      </ul>
+      <div class="hero__ramka-links">
+        <a href="index.html" class="submenu-list-item service-item">Главная</a>        
+        <a href="#" class="submenu-list-item service-item service-item--last">Статьи</a> 
+      </div>
     </div>
   </div>
     </section>
@@ -158,15 +158,14 @@
     <div class="article__inner">
       <h1 class="article__title">Полезные статьи</h1>
       <div class="submenu__inner article__submenu">
-        <ul class="submenu-list">                 
-          <li class="submenu-list-item submenu-list-item-lastchild"><a href="blog.html" class="submenu-list-link">Все статьи</a></li>        
-          <li class="submenu-list-item"><a href="blog.html" class="submenu-list-link">Имплантация зубов</a></li>        
-          <li class="submenu-list-item"><a href="blog.html" class="submenu-list-link">Протезирование зубов</a></li>        
-          <li class="submenu-list-item"><a href="blog.html" class="submenu-list-link">Реставрация зубов</a></li>        
-          <li class="submenu-list-item"><a href="blog.html" class="submenu-list-link">Лечение зубов</a></li>        
-          <li class="submenu-list-item"><a href="blog.html" class="submenu-list-link">Гигиена и отбеливание зубов</a></li>        
-          
-        </ul>
+        <div class="article__ramka-links">
+          <a href="blog.html" class="service-item service-item--last">Все статьи</a>        
+          <a href="blog.html" class="service-item">Имплантация зубов</a>        
+          <a href="blog.html" class="service-item">Протезирование зубов</a>        
+          <a href="blog.html" class="service-item">Реставрация зубов</a>        
+          <a href="blog.html" class="service-item ">Лечение зубов</a> 
+          <a href="blog.html" class="service-item ">Гигиена и отбеливание зубов</a> 
+        </div>
       </div>
       <div class="article__cards">
         <div class="article__card">
@@ -200,8 +199,8 @@
             <a href="#" class="article__card-link">Откололся зуб: что делать?</a>
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
-        </div>
-        <div class="article__card ramka">
+        </div>      
+        <div class="article__card article__card--more">
           <div class="article__card-img-wrap">
             <img src="img/articles/vipala_plomba.jpg" alt="" class="article__card-img">
           </div>
@@ -211,7 +210,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card ramka">
+        <div class="article__card article__card--more">
           <div class="article__card-img-wrap">
             <img src="img/articles/otbelivanie.jpeg" alt="" class="article__card-img">
           </div>
@@ -221,7 +220,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card ramka">
+        <div class="article__card article__card--more">
           <div class="article__card-img-wrap">
             <img src="img/articles/prichiny_obrazovania_zubnogo.jpg" alt="" class="article__card-img">
           </div>
@@ -230,8 +229,8 @@
             <a href="#" class="article__card-link">Причины образования зубного камня</a>
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
-        </div>
-        <div class="article__card ramka">
+        </div>      
+        <div class="article__card article__card--more">
           <div class="article__card-img-wrap">
             <img src="img/articles/kak_pravilno_vibrat.jpg" alt="" class="article__card-img">
           </div>
@@ -240,9 +239,9 @@
             <a href="articles.html" class="article__card-link">Какие привычки могут нанести вред вашим протезам?</a>
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
-        </div>      
-      </div>
-      <div class="article__navigation">
+        </div>           
+    </div>
+    <div class="article__navigation">
       <button class="article__button btn-reset">Показать еще</button>
       <div class="article__pages-wrap">
         <button class="article__left btn-reset"><img src="img/arr-left.png" alt="" class="article-pages__img"></button>
@@ -252,8 +251,7 @@
         <button class="article__btn btn-reset">4</button>
         <button class="article__right btn-reset"><img src="img/arr__right.png" alt="" class="article-pages__img"></button>
       </div>
-      </div>      
-    </div>
+      </div> 
   </div>
     </section>
     <div class="hover-menu">
@@ -334,7 +332,7 @@
       <h2 class="ratings__inner-title title question__inner-title">Задать вопрос или записаться на приём</h2>
       <form action="" class="form question__form">
         <input class="form__input question__input" type="tel" name="" id="" placeholder="+7 (___) ___-__-__">
-        <button class="hero__button btn question__button btn-reset">Жду звонка</button>
+        <button class="hero__button button question__button btn-reset btn2">Жду звонка</button>
       </form> 
       <p class="question__inner-text">Нажимая кнопку, я даю свое согласие на обработку персональных данных</p> 
 
@@ -559,5 +557,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/blog.js"></script>
 </body>
 </html>

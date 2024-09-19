@@ -232,94 +232,88 @@
   display: block;
 
 }
-}
-
-@media (max-width: 767px) {
-  .form__hero {
-    flex-direction: column;
-    width: 100%;
-    max-width: 100%;
-    
-    
-  }
-  .form__input, .hero__button {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .form__input {
-    margin-right: 0;
-    margin-bottom: 24px;
-  }
-
-  
-  .question__form {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;   
-    align-items: center;  
-    max-width: 100%;
-    gap: 30px;
-    margin-bottom: 12px;
-
-  }
-  .question__input, .question__button {
-    flex: 1;
-    margin-right: 0;
-    max-width: 260px;
-    width: 100%;
-    
-
-  }
-  .sale {
-    display: block;
-    margin-left: 0;
-    margin-bottom: 30px;
-  }
-  .hero__inner-wrap {
-    margin-bottom: 64px;
-  }
-  .hero__subtitle-main {
-    margin-bottom: 12px;
-  }
-  .about__service__inner {
-    margin-bottom: 64px;
-  }
-  .reviews__top {
-    margin-bottom: 64px;
-  }
-  .reviews__inner {
-    margin-bottom: 64px;
-  }
-  .trust__inner-wrap {
-    margin-bottom: 64px;
-  }
-  .ratings__inner {
-    margin-bottom: 64px;
-  }
-  .about__inner {
-    margin-bottom: 64px;
-  }
-  .about__inner--text:last-of-type {
-    margin-bottom: 0;
-  }
-  .specialists__inner-top {
-    margin-bottom: 32;
-  }
-  .specialists__inner {
-    margin-bottom: 64px;
-  }
-  .question__inner {
-    margin-bottom: 64px;
-  }
-  .address__inner {
-    margin-bottom: 64px;
-  }
+.form__hero {
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
   
   
 }
+.form__input, .hero__button {
+  width: 100%;
+  max-width: 100%;
+}
+
+.form__input {
+  margin-right: 0;
+  margin-bottom: 24px;
+}
 
 
+.question__form {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;  
+  max-width: 100%;
+  gap: 12px;
+  margin-bottom: 12px;
+
+}
+.question__input, .question__button {
+  flex: 1;
+  margin-right: 0;
+  max-width: 260px;
+  width: 100%;
+  margin-bottom: 0;
+  
+
+}
+.sale {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+.hero__inner-wrap {
+  margin-bottom: 64px;
+}
+.hero__subtitle-main {
+  margin-bottom: 12px;
+}
+.about__service__inner {
+  margin-bottom: 64px;
+}
+.reviews__top {
+  margin-bottom: 64px;
+}
+.reviews__inner {
+  margin-bottom: 64px;
+}
+.trust__inner-wrap {
+  margin-bottom: 64px;
+}
+.ratings__inner {
+  margin-bottom: 64px;
+}
+.about__inner {
+  margin-bottom: 64px;
+}
+.about__inner--text:last-of-type {
+  margin-bottom: 0;
+}
+.specialists__inner-top {
+  margin-bottom: 32;
+}
+.specialists__inner {
+  margin-bottom: 64px;
+}
+.question__inner {
+  margin-bottom: 64px;
+}
+.address__inner {
+  margin-bottom: 64px;
+}
+}
 
 @media (max-width: 480px) {
   .burger-menu {
