@@ -12,14 +12,20 @@
 
 .article-wrap {
 }
+.article__links {
+  margin-bottom: 18px;
+}
 .article__submenu-list {
   margin-bottom: 36px;
+  max-width: 188px;
+  
 }
 .article__title {
   font-weight: 600;
 font-size: 34px;
 opacity: 0.8;
 margin-bottom: 12px;
+line-height: 130%;
 }
 .article__subtitle {
   font-weight: 600;
@@ -49,15 +55,18 @@ margin-bottom: 6px;
   font-weight: 400;
 font-size: 16px;
 margin-bottom: 30px;
+max-width: 720px;
 }
 .article__text--last {
   margin-bottom: 24px;
+  max-width: 720px;
 }
 .article__img {
   display: block;
   max-width: 720px;
   height: 360px;
   object-fit: cover;
+  margin-bottom: 30px;
 }
 
 .article__more {

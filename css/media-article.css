@@ -1,0 +1,37 @@
+@media (max-width: 1280px) {
+  .article__text {
+    max-width: 690px;
+  }
+  .article__text--last {
+    max-width: 690px;
+  }
+  .article__img {
+    max-width: 690px;
+  }
+  .article__title {
+    max-width: 840px;
+  }
+}
+@media (max-width: 960px) {
+  .article__text {
+    max-width: 648px;
+  }
+  .article__text--last {
+    max-width: 648px;
+  }
+  .article__img {
+    max-width: 648px;
+  }
+  .article__title {
+    max-width: 648px;
+  }
+
+}
+@media (max-width: 768px) {
+  .ramka-0 {
+    border: none;
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {}
+  
