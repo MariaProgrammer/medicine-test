@@ -34,3 +34,55 @@ margin-bottom: 24px;
   margin: 0;
 
 }
+.akcii__links {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.service-item {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray);
+  padding: 2px 4px;
+  border: 1px solid var(--ligth-gray);
+  border-radius: 6px;
+  background: var(--white);
+  margin-right: 10px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}   
+
+.service-item--last { 
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+  margin-right: 0;
+  
+}
+.card-text--wrap {
+  display: flex;
+}
+.fa {
+  font-size: 8px;
+  margin-top: 5px;
+  margin-right: 10px;
+
+}
+  
+ 
+
+
