@@ -75,7 +75,7 @@ validation2.addField("#tel2", [
   }
 ]).onSuccess(async function () {
   let data = {    
-    tel: selector.inputmask.unmaskedvalue()   
+    tel: selectorQuestion.inputmask.unmaskedvalue()   
   }
 
   let response = await fetch("mail.php", {

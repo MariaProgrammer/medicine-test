@@ -18,6 +18,8 @@
    <link rel="stylesheet" href="css/media.css" />
    <link rel="stylesheet" href="css/media-services.css" />
    
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/just-validate.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
  </head>
 <body>
@@ -162,9 +164,17 @@
            <p class="hero__text">Запишитесь на первичный приём.</p>
            <p class="hero__text">Врач осмотрит вас и поставит диагноз.</p>
            <p class="hero__text">При желании сможете сразу начать лечение.</p>
-           <form action="" class="form">
-             <input class="form__input" type="tel" name="" id="" placeholder="+7 (___) ___-__-__">
-             <button class="hero__button btn btn-reset btn1">Жду звонка</button>
+           <form  class="form" id="form1" autocomplete="off">
+            <div class="form__hero">
+              <div class="input__wrap">
+                <input class="form__input tel" type="tel" name="tel" id="tel1" placeholder="+7 (___) ___-__-__" autocomplete="off">
+
+              </div>
+             
+            <button class="hero__button button btn-reset btn1">Жду звонка</button>
+
+            </div>
+            
            </form>              
            <div class="hero__contacts">
              <div class="hero__contacts--tel">
@@ -923,6 +933,23 @@
   </div>
 
 </section>      
+
+<section class="question">
+  <div class="container">
+    <div class="question__inner ramka ">
+      <h2 class="ratings__inner-title title question__inner-title">Задать вопрос или записаться на приём</h2>
+      <form class="form question__form" id="form2" autocomplete="off">
+        <div class="input__wrap">
+          <input class="question__input" type="tel" name="tel2" id="tel2" placeholder="+7 (___) ___-__-__" autocomplete="off">
+        </div>
+       
+        <button class="question__button button btn-reset btn2">Жду звонка</button>
+      </form> 
+      <p class="question__inner-text">Нажимая кнопку, я даю свое согласие на обработку персональных данных</p> 
+
+    </div>
+  </div>
+</section>
 <section class="specialists">
   <div class="container">
     <div class="specialists__inner">          
@@ -973,19 +1000,6 @@
             </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<section class="question">
-  <div class="container">
-    <div class="question__inner ramka ">
-      <h2 class="ratings__inner-title title question__inner-title">Задать вопрос или записаться на приём</h2>
-      <form action="" class="form question__form">
-        <input class="question__input" type="tel" name="" id="" placeholder="+7 (___) ___-__-__">
-        <button class="question__button button btn-reset btn2">Жду звонка</button>
-      </form> 
-      <p class="question__inner-text">Нажимая кнопку, я даю свое согласие на обработку персональных данных</p> 
-
     </div>
   </div>
 </section>
@@ -1206,7 +1220,7 @@
 
 </footer>
 
-
+ <script type="module" src="js/send.js"></script>
  <script src="js/main.js"></script>
 </body>
 </html>

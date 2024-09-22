@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/media.css" />    
     <link rel="stylesheet" href="css/media-blog.css" />
     
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </head>
 <body>
@@ -327,17 +329,20 @@
       </div>
     </div>
     <section class="question">
-  <div class="container">
-    <div class="question__inner ramka ">
-      <h2 class="ratings__inner-title title question__inner-title">Задать вопрос или записаться на приём</h2>
-      <form action="" class="form question__form">
-        <input class="form__input question__input" type="tel" name="" id="" placeholder="+7 (___) ___-__-__">
-        <button class="hero__button button question__button btn-reset btn2">Жду звонка</button>
-      </form> 
-      <p class="question__inner-text">Нажимая кнопку, я даю свое согласие на обработку персональных данных</p> 
-
-    </div>
-  </div>
+      <div class="container">
+        <div class="question__inner ramka ">
+          <h2 class="ratings__inner-title title question__inner-title">Задать вопрос или записаться на приём</h2>
+          <form class="form question__form" id="form2" autocomplete="off">
+            <div class="input__wrap">
+              <input class="question__input" type="tel" name="tel2" id="tel2" placeholder="+7 (___) ___-__-__" autocomplete="off">
+            </div>
+           
+            <button class="question__button button btn-reset btn2">Жду звонка</button>
+          </form> 
+          <p class="question__inner-text">Нажимая кнопку, я даю свое согласие на обработку персональных данных</p> 
+  
+        </div>
+      </div>
     </section>
     <section class="address">
   <div class="container">
@@ -556,6 +561,7 @@
 
 </footer>
 
+<script type="module" src="js/send-question.js"></script>
 <script src="js/main.js"></script>
 <script src="js/blog.js"></script>
 </body>

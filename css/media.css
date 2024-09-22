@@ -323,6 +323,10 @@
 .address__inner {
   margin-bottom: 64px;
 }
+.just-validate-error-label {  
+  padding-top: 0 !important;
+  padding-bottom: 10px;
+}
 }
 
 @media (max-width: 480px) {

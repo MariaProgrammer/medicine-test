@@ -181,9 +181,12 @@ color: var(--new-main);
 
 .just-validate-error-label {
   text-align: left !important;
-  padding-top: 15px !important;
+  padding-top: 10px !important;
+}
 
-
+.just-validate-error-field {
+  border: 1px solid var(--red) !important;
+  color: var(--red);
 }
 
 
