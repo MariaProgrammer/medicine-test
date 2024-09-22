@@ -323,8 +323,9 @@ button:active {
 }
 
 .input__wrap {
-  max-width: 260px;
   flex: 1;
+  max-width: 260px;
+  
   margin-right: 30px;
   margin-bottom: 15px;
 }
