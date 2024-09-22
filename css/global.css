@@ -321,3 +321,10 @@ button:active {
   border: 1px solid var(--new-main);
   color: var(--new-main);
 }
+
+.input__wrap {
+  max-width: 260px;
+  flex: 1;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}

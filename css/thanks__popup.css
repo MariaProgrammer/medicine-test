@@ -1,20 +1,14 @@
 .thanks__popup {
-  display: none;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1500;
-  
+   display: none;
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   z-index: 1500;
 }
-.thanks__popup-inner {
-  
+.thanks__popup-inner {  
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   right: 0;
@@ -81,7 +75,7 @@ z-index: 900;
 
 .thanks__popup.active {
   display: block;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   left: 0;

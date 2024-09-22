@@ -44,6 +44,12 @@
   text-align: center;
   color: var(--ligth-gray);
 }
+.question__input:focus, .question__input:active {
+  outline: none;
+  border: 1px solid var(--accent-1);
+  
+}
+
 
 .question__button {
   border-radius: 6px;

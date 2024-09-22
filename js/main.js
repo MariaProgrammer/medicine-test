@@ -89,28 +89,28 @@ footerPopupButton.addEventListener('click', () => {
 
 //кнопка отправки
 
-const btn1 = document.querySelector('.btn1');
-const btn2 = document.querySelector('.btn2');
-const thanksButton = document.querySelector('.thanks__popup-button');
-const thanksPopup = document.querySelector('.thanks__popup');
-// console.log(heroButton);
-// console.log(btn1, btn2);
+// const btn1 = document.querySelector('.btn1');
+// const btn2 = document.querySelector('.btn2');
+// const thanksButton = document.querySelector('.thanks__popup-button');
+// const thanksPopup = document.querySelector('.thanks__popup');
+// // console.log(heroButton);
+// // console.log(btn1, btn2);
 
-thanksPopup.addEventListener('click', () => {
-	thanksPopup.classList.remove('active');
-});
-function addClass(event) {
-	event.preventDefault();	
-	thanksPopup.classList.add('active');
-}
-btn1.addEventListener('click', addClass, false);
-btn2.addEventListener('click', addClass, false);
+// thanksPopup.addEventListener('click', () => {
+// 	thanksPopup.classList.remove('active');
+// });
+// function addClass(event) {
+// 	event.preventDefault();	
+// 	thanksPopup.classList.add('active');
+// }
+// btn1.addEventListener('click', addClass, false);
+// btn2.addEventListener('click', addClass, false);
 
-const question = document.querySelector('.question');
-console.log(question);
+// const question = document.querySelector('.question');
+// console.log(question);
 
-const scroll = question.scrollTop;
-console.log(scroll);
+// const scroll = question.scrollTop;
+// console.log(scroll);
 
 
 

@@ -260,14 +260,24 @@
   margin-bottom: 12px;
 
 }
-.question__input, .question__button {
+.question__input, .question__button, .hero__input, .hero__button, .input__wrap {
   flex: 1;
   margin-right: 0;
-  max-width: 260px;
-  width: 100%;
+  max-width: 100%;
+ width: 100%;
   margin-bottom: 0;
-  
+}
 
+.thanks__popup-main {
+  width: 416px;
+  height: 336px;
+}
+.thanks__popup-title {
+  padding: 75px 5px 0 5px;
+}
+
+.thanks__popup-text {
+  padding: 0 15px;
 }
 .sale {
   display: block;
@@ -406,6 +416,9 @@ font-size: 12px;
   .services__accordion {
     margin-bottom: 32px;
   }
+  .trust__inner-wrap {
+    margin-bottom: 32px;
+  }
   .ratings__inner-cards {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -424,7 +437,7 @@ font-size: 12px;
     font-size: 14px;
   }
   .trust__inner-wrap--right {
-    margin-bottom: 32px;
+    margin-bottom: 0;
   }
   .specialists__inner-top {
     margin-bottom: 10px;
@@ -476,7 +489,17 @@ font-size: 12px;
   .address__inner {
     margin-bottom: 32px;
   }
+  .thanks__popup-main {
+    width: 296px;
+    height: 300px;
+  }
+  .thanks__popup-title {
+    padding-top: 45px;
+  }
   
+  .thanks__popup-text {
+    padding: 0 15px;
+  }
   
   
   
