@@ -113,6 +113,7 @@ font-size: 16px;
 }
 .specialists__card-right {
   flex: 1 1 auto;
+  position: relative;
 }
 .specialists__card-certificate {
   display: flex;
