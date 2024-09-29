@@ -8,13 +8,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 .specialists__inner-wrap {
   position: relative;
 }
 .reviews__top--title {
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
 }
 
 .specialists__buttons {  
@@ -188,8 +188,8 @@
   position: absolute !important;
   top: 50% !important;
   z-index: 2500 !important;
-  width: 27px!important;
-  height: 44px!important;
+  width: 50px!important;
+  height: 50px!important;
   /* background-color: white!important; */
   
 }

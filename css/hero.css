@@ -7,7 +7,7 @@
  
 }
 .hero__inner-left {  
-  padding: 30px 30px 60px 30px;
+  padding: 30px 30px 80px 30px;
   
  
 }
@@ -42,7 +42,7 @@
   display: inline-block;
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 .sale {
   display: inline-block;
@@ -101,7 +101,7 @@ border-radius: 6px;
 padding: 14px 60px;
 width: 260px;
 height: 50px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
 background: var(--new-main);
 font-size: 16px;
 color: var(--white);
@@ -109,13 +109,13 @@ cursor: pointer;
 }
 
 .hero__button:hover {
-  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: var(--dark-main);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--new-main);
 }
 
 .hero__button:active {
   box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: var(--dark-main);
+  background: var(--new-main);
 }
 
 .hero__contacts {

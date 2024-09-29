@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   body {
     line-height: 130%;
   }
@@ -85,7 +85,7 @@
 }
   
 }
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .container {
     max-width: 100%;
   }
@@ -167,7 +167,7 @@
   }
   
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero__ramka {
     display: none;
   }
@@ -329,7 +329,7 @@
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .burger-menu {
     bottom: -555px;
   }
@@ -504,12 +504,9 @@ font-size: 12px;
   .thanks__popup-text {
     padding: 0 15px;
   }
-  
-  
-  
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   
   
   .reviews__top {

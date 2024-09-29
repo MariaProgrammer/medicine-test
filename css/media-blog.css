@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .article__cards {   
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -10,7 +10,7 @@
    }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .article__cards {   
     grid-template-columns: repeat(1, 1fr);
   }
@@ -21,7 +21,7 @@
     display: block;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   
 
 }
