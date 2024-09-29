@@ -1,3 +1,10 @@
+@media (any-hover:hover) {
+  a:hover {
+    cursor: pointer;
+  }
+
+}
+
 @media (max-width: 1279px) {
   body {
     line-height: 130%;
@@ -161,6 +168,9 @@
   }
   .footer__menu1279 {
     display: block;
+  }
+  .footer__burger {
+    max-width: 276px;
   }
   .footer__burger--text {
     display: block;
@@ -327,6 +337,9 @@
   padding-top: 0 !important;
   padding-bottom: 10px;
 }
+.footer__burger-menu {
+  bottom: 180px;
+}
 }
 
 @media (max-width: 479px) {
@@ -350,8 +363,8 @@ font-size: 12px;
 
   }
   .nav__header-menu--burger {
-    height: 50px;
-    height: 48px;
+    width: 52px;
+    height: 52px;
     
   }
   .nav__header-contacts {
@@ -504,6 +517,12 @@ font-size: 12px;
   .thanks__popup-text {
     padding: 0 15px;
   }
+  .footer__burger-menu {
+    bottom: 157px;
+  }
+  .footer-burger__button {
+    width: 100%;
+  }
 }
 
 @media (max-width: 359px) {
@@ -519,5 +538,10 @@ font-size: 12px;
   }
   .button-box {
     top: 32px;
+  }
+  .footer__burger-menu {
+    width: 260px;
+    max-width: 260px;
+    bottom: 157px;
   }
 }

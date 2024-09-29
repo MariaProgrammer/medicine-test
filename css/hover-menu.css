@@ -1,9 +1,10 @@
 .hover-menu {
   display: none;
-  width: 1140px;
-  position: fixed;
+  width: 100%;
+  max-width: 1140px;
+  position: absolute;
   left: 50%;
-  top: 153px;
+  top: -28px;
   z-index: 50;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
