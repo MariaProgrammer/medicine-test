@@ -142,10 +142,13 @@
 }
 .nav__header-menu--link {
 }
+.blank--link {
+  cursor: default;
+}
 .nav__header-menu--grade {
   width: 262px;
   max-height: 74px;
-  padding: 13px 25px;
+  padding: 13px 23px;
   border: 1px solid var(--accent-red);
   border-radius: 6px;
 }

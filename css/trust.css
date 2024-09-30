@@ -5,20 +5,19 @@
   padding: 0;
   width: 100%;
   height: 351px;
-  position: relative;
+  
  
 }
 .trust__inner {
   width: 100%;
   height: auto;
   margin-bottom: 70px;
- 
-  
-  
+  position: relative;
   
 }
 .trust__title {
   margin-bottom: 30px;
+  line-height: 140%;
 }
 
 .trust__inner-wrap {
@@ -82,7 +81,7 @@
   color: var(--txt-black);
   font-weight: 600;
   font-size: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 21px;
 }
 .trust__inner-wrap--text {
   font-weight: 400;
@@ -99,7 +98,7 @@
 }
 .trust__buttons {
  position: absolute;
- right: 0;
+ right: 30px;
  bottom: 0;
  z-index: 100;
  

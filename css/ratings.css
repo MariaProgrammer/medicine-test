@@ -25,6 +25,14 @@ height: 100%;
 background: var(--white);
 text-align: center;
 }
+.ratings-ramka {
+  display: block;
+  height: 100%;
+  background: var(--white);
+  border: 1px solid var(--ligth-gray);
+  border-radius: 12px;
+  padding: 30px;
+}
 
 .ratings__inner-card:hover {
   cursor: pointer;
