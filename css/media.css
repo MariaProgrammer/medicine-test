@@ -113,7 +113,7 @@
     order: 1;
     width: 100%;
     max-width: 468px;
-    margin-right: 24px;
+    /* margin-right: 24px; */
   }
   .footer-menu--grade {
     order:3;
@@ -181,7 +181,7 @@
     
     width: 100%;
     max-width: 276px;
-    margin-right: 24px;
+    /* margin-right: 24px; */
   }
   .footer__inner-bottom--right {
     display: none;
@@ -219,6 +219,9 @@
   }
   .footer__burger {
     max-width: 276px;
+  }
+  .footer__burger-menu {
+    bottom: 119px;
   }
   .footer__burger--text {
     display: block;
@@ -396,7 +399,7 @@
 }
 
 .footer__burger-menu {
-  bottom: 180px;
+  bottom: 193px;
 }
 .swiper-button-prev {
   display: none;
