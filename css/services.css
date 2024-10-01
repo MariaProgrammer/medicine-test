@@ -3,11 +3,26 @@
 .services__accordion {
   margin-bottom: 70px;
 }
+.ramka-services {
+  border: 1px solid var(--light-gray);
+border-radius: 12px;
+padding: 14px 30px;
+}
 
 .services__accordion-item {
+  display: block;
   display: flex;
   padding: 29px 30px;
   margin-bottom: 30px;
+}
+
+.services__accordion-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: var(--new-main);
+}
+.services__accordion-item:active {  
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .services__accordion-item:last-child {
