@@ -247,9 +247,9 @@
   .about__service__inner {
     margin-bottom: 64px;
   }
-  .reviews__top {
+  /* .reviews__top {
     margin-bottom: 64px;
-  }
+  } */
   .reviews__inner {
     margin-bottom: 60px;
   }
@@ -527,7 +527,7 @@ font-size: 12px;
     height: 40px !important;
   }
   .reviews__top--title {
-    padding-bottom: 24px;
+    padding-bottom: 10px;
   }
   .trust__inner-wrap--right {
     margin-bottom: 0;
@@ -651,7 +651,7 @@ font-size: 12px;
   
   
   .reviews__top {
-    margin-bottom: 4px;
+    margin-bottom: 24px;
   }
   
   .reviews__top--title {
