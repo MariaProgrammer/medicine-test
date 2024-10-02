@@ -97,6 +97,7 @@
   
 }
 .trust__buttons {
+  
  position: absolute;
  right: 30px;
  bottom: 0;
@@ -134,4 +135,8 @@ height: 50px;
   background: var(--white);
   box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   
+}
+
+.trust__button-bottom {
+  display: none;
 }
