@@ -28,7 +28,9 @@ background: var(--white);
 }
 
 .footer__item:hover, .footer__item:focus, .footer__item:active {
-color: var(--new-main);;
+  color: var(--new-main);
+  cursor: pointer;
+
 }
 .item-title {
   font-weight: 600;

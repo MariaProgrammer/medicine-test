@@ -83,6 +83,7 @@ margin-bottom: 6px;
 
 .hover-menu__item:hover, .hover-menu__item:focus, .hover-menu__item:active {
   color: var(--new-main);
+  cursor: pointer;
 }
 .hover-item__title {
   font-weight: 600;
@@ -90,6 +91,7 @@ font-size: 16px;
 margin-bottom: 6px;
 }
 .hover-menu__link {
+
 }
 
 .hover-menu.active {
