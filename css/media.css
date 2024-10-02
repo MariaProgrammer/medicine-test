@@ -15,6 +15,9 @@
   .nav__header-menu {
     padding: 0 15px;
   }
+  .nav__header-menu--grade {
+    width: 256px;
+  }
   
   .nav__header-menu--list {
     display: none;
@@ -56,6 +59,9 @@
   .trust__buttons {
     top: -20px;
     right: 0;
+  }
+  .trust__button-bottom {
+    display: none;
   }
   .trust__inner-wrap {
     flex-direction: column;
@@ -124,6 +130,9 @@
     order: 2; 
     max-width: 118px;
     /* flex: 1 1 118px; */
+  }
+  .footer__inner-bottom {
+    justify-content: flex-start;
   }
   .footer__inner-bottom--left {
     flex: 1 1 auto;
@@ -410,7 +419,7 @@
 }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .burger-menu {
     bottom: -555px;
   }

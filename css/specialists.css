@@ -27,7 +27,7 @@
 }
 .specialists__button {
   display: inline-block;
-  margin-left: 22px;
+  margin-left: 15px;
   border: 1px solid var(--new-main);
   border-radius: 12px;
   width: 50px;

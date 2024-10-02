@@ -101,12 +101,13 @@
  right: 30px;
  bottom: 0;
  z-index: 100;
+
  
 }
 .trust__button {
   position: relative;
   display: inline-block;
-  margin-left: 24px;
+  margin-left: 15px;
   border: 1px solid var(--new-main);
 border-radius: 12px;
 width: 50px;

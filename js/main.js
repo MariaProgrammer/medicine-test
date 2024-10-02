@@ -223,6 +223,97 @@ const swiper1 = new Swiper('.swiper1', {
 			mousewhell: true,
 			keyboard: true,
 			});
+		const swiperFooter = new Swiper('.swiper-footer', {
+			direction: 'horizontal',
+			loop: true,
+			// effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+			slidesPerView: 1,
+			spaceBetween: 54,	
+			navigation: {	
+				nextEl: '.swiper-button-nextfoot',			
+				prevEl: '.swiper-button-prevfoot',
+				
+			},
+			// breakpoints: {
+				// when window width is >= 320px
+				// 320: {
+				// 	slidesPerView: 1,
+				// 	spaceBetween: 0
+				// },
+				// when window width is >= 480px
+				// 768: {
+				// 	slidesPerView: 2,
+				// 	spaceBetween: 30
+				// },
+				// when window width is >= 640px
+			// 	960: {
+			// 		slidesPerView: 3,
+			// 		spaceBetween: 30
+			// 	},
+				
+			// },
+			// pagination:	{
+			// 	el: '.swiper-pagination',
+			// 	clickable: true,
+			// },
+			mousewhell: true,
+			keyboard: true,
+			});
 
+			const swiperFooterWindow = document.querySelector('.swiper-footer--inner')
+			const swiperFooterbtns = document.querySelectorAll('.footer-lisense')
+			const footerWindowCross = document.querySelector('.swiper-button--cross')
+			const footerBtnLupa = document.querySelector('.swiper-button--lupa')			
+			// const footerSwiperImg = document.querySelector('.footer__swiper--img')
+			const swiperImg1 = document.querySelector('.swiper--img1')
+			const swiperImg2 = document.querySelector('.swiper--img2')
+			const swiperImg3 = document.querySelector('.swiper--img3')
+			
+
+			const openModal = (triggerSelector, modalDataSelector) => {
+				// const trigger = document.querySelectorAll(triggerSelector)
+				// console.log(trigger);
+				
+				// const modal = document.querySelector(modalDataSelector)
+				if (!triggerSelector || !modalDataSelector) return
+				triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
+				
+				
+				function closeParentBlock(e) {
+					e.preventDefault()
+					modalDataSelector.classList.add('active')
+				}
+			}
+			openModal(swiperFooterbtns, swiperFooterWindow);
+			
+			
+			footerWindowCross.addEventListener('click', () => {
+				swiperFooterWindow.classList.remove('active');
+			});
+
+			footerBtnLupa.addEventListener('click', () => {
+				swiperImg1.classList.toggle('active');
+				swiperImg2.classList.toggle('active');
+				swiperImg3.classList.toggle('active');
+			});
+
+			swiperImg1.addEventListener('click', () => {
+				swiperImg1.classList.toggle('active');
+			})
+			swiperImg2.addEventListener('click', () => {
+				swiperImg2.classList.toggle('active');
+			})
+			swiperImg3.addEventListener('click', () => {
+				swiperImg3.classList.toggle('active');
+			})
+
+			
+			
+			
+			
+			
 			
 			
