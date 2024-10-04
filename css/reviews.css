@@ -92,6 +92,9 @@
 }
 .reviews__bottom-card--name {
   display: block;
+  font-weight: 400;
+font-size: 16px;
+color: var(--txt-black);
 }
 .reviews__bottom-card--stars {
   display: block;
