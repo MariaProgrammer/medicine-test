@@ -332,10 +332,10 @@ margin-bottom: 4px;
 .footer__swiper--img {
   opacity: 1;
   display: block;
-  max-width: 500px;
-  height: auto;
+  width: auto;
+  height: 100vh;
   margin: 0 auto;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform ease 0.5s;
   -webkit-transition: transform ease 0.5s;
   -moz-transition: transform ease 0.5s;

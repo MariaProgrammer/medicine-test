@@ -306,6 +306,7 @@ const swiper1 = new Swiper('.swiper1', {
 			
 			footerWindowCross.addEventListener('click', () => {
 				swiperFooterWindow.classList.remove('active');
+				window.reload();
 			});
 
 			footerBtnLupa.addEventListener('click', () => {
