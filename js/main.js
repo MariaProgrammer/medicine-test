@@ -263,6 +263,20 @@ const swiper1 = new Swiper('.swiper1', {
 			keyboard: true,
 			});
 
+			const swiperAbout = new Swiper('.swiper-about', {
+				direction: 'horizontal',
+				loop: true,
+				slidesPerView: 1,
+				spaceBetween: 0,	
+				navigation: {
+					nextEl: '.swiper-button-next-about',
+					prevEl: '.swiper-button-prev-about',
+				},
+				
+				mousewhell: true,
+				keyboard: true,
+				});
+
 			const swiperFooterWindow = document.querySelector('.swiper-footer--inner')
 			const swiperFooterbtns = document.querySelectorAll('.footer-lisense')
 			const footerWindowCross = document.querySelector('.swiper-button--cross')

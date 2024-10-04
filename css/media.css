@@ -101,6 +101,7 @@
     order: 2;
   }
   .about__inner--right {
+    width: 100%;
     order: 1;
 
   }
@@ -280,6 +281,9 @@
   }
   .about__inner--text:last-of-type {
     margin-bottom: 0;
+  }
+  .swiper-button-prev-about {
+    display: none;
   }
   .specialists__inner-top {
     margin-bottom: 32;
