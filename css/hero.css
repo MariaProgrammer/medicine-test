@@ -4,8 +4,11 @@
   column-gap: 30px;
   margin-top: 32px;
   margin-bottom: 70px;
+  
+}
+.hero__inner-pos {
   position: relative;
- 
+  
 }
 .hero__inner-left {  
   padding: 30px 30px 80px 30px;

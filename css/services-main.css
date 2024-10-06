@@ -10,6 +10,7 @@
 .service-hero__subtitle {
   max-width: 343px;
 }
+
 .service-item {
   padding: 2px 4px;
   height: auto;
@@ -35,10 +36,10 @@
 
 
 .hero__ramka-services {
- display: flex;
- flex-direction: column;
+ /* display: flex;
+ flex-direction: column; */
  max-width: 620px;
- align-self: flex-start;
+ /* align-self: flex-start; */
  margin-top: 12px;
   
 
@@ -53,7 +54,7 @@
 }
 .right-services__img {
   display: block;
-  width: 310px;
+  width: 370px;
   height: 100%;
   object-fit: contain;
   border-radius: 6px;
@@ -62,6 +63,73 @@
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+/* .service-descr {
+  max-width: 550px;
+} */
+.service-title {
+  font-weight: 600;
+  line-height: 140%;
+
+font-size: 16px;
+color: var(--txt-black);
+margin-bottom: 20px;
+}
+.service-list {
+  padding: 0;
+  padding-left: 18px;
+  margin: 0;
+  
+
+}
+.service-text {
+  font-weight: 600;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 150%;
+margin-bottom: 12px;
+}
+.service-sublist {
+  list-style-type: "- ";
+}
+.service-subtext {
+  font-size: 16px;
+color: var(--txt-black);
+line-height: 150%;
+  font-weight: 400;
+}
+.service-form {
+  margin-bottom: 10px;
+}
+.service-text--udalenie {
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.service-subtext--udalenie {
+  margin-top: 20px;
+}
+
+.service-title--restavracia {
+  font-weight: 600;
+font-size: 20px;
+color: var(--txt-black);
+line-height: 140%;
+margin-bottom: 0;
+
+}
+
+.service-title--restavracia-small {
+  font-weight: 600;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 140%;
+margin-top: 20px;
+margin-bottom: 0;
+
+}
+.service-subtext--protezirovanie {
+  margin-top: 20px;
+}
+
 
 /* ABOUT */
 .about__service {

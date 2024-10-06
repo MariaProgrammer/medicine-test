@@ -1,4 +1,4 @@
-@media (max-width: 1279px) {
+@media (max-width: 1279.20px) {
   .hero__inner-right--services {
     display: none;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.20px) {
   
   .hero__ramka-services {
     width: 100%;
@@ -40,6 +40,7 @@
     font-weight: 400;
     font-size: 16px;
   }
+  
   .price-item__img {
     display: none;
   }
@@ -66,8 +67,11 @@
     display: block;
   }
   .service-hero__subtitle {
-    margin-bottom: 16px;
+    margin-bottom: 16px;  
    
+  }
+  .service-descr {
+    margin-top: 24px;
   }
   .sale {
     display: block;
@@ -86,10 +90,16 @@
   
   
 }
-@media (max-width: 479px) {
+@media (max-width: 479.20px) {
   .service-hero__subtitle {
     font-size: 20px;
     font-weight: 600;
+  }
+  .service-title, .service-text, .service-subtext {
+    font-size: 14px;
+  }
+  .services__contact {
+    font-size: 14px;
   }
   .about__service-text {
     font-size: 14px;
