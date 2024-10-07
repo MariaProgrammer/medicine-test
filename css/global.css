@@ -301,15 +301,35 @@ button:active {
   align-items: center;
   justify-content: flex-start;
 }
-.service-item {
+.service-item--first {
   flex: 0 1 auto;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--light-gray);
   border-radius: 6px;
   padding: 2px 4px;
   text-align: center;
   color: var(--gray);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.service-item--first:hover, .service-item--first:active {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+
+}
+.service-item {
+  margin-right: 10px;
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  flex: 0 1 auto;
+  border: 1px solid var(--light-gray);
+  border-radius: 6px;
+  padding: 2px 4px;
+  text-align: center;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 13px;
 }
 .service-item:hover, .service-item:active {
   border: 1px solid var(--new-main);

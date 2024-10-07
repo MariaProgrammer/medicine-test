@@ -3,8 +3,32 @@
     display: none;
   }
   .hero__inner--services {
-    padding-top: 12px;
+    padding-top: 12px;    
   }
+  
+  .services__inner-wrap {
+    width: 100%;
+    max-width: 100%;
+    }
+    .hero__ramka-services {
+      width: 100%;
+      max-width: 100%;
+    }
+    .hero__inner-wrap {
+      margin-bottom: 60px;
+    }
+    .services__text {
+      margin-bottom: 30px;
+    }
+    .service-hero__subtitle {
+      margin-bottom: 32px;
+    }
+    .price__inner {
+      margin-bottom: 60px;
+    }
+    .about__service__inner {
+      margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 767.20px) {
@@ -26,6 +50,7 @@
   .hero__button {
     width: 100%;
   }
+  
   .hero__contacts {
     margin: 0;
     display: flex;
@@ -91,9 +116,32 @@
   
 }
 @media (max-width: 479.20px) {
+  .hero__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--txt-black);
+    margin-bottom: 12px;
+  }
+  
+    
+
+  
+  .hero__inner-wrap {
+    margin-bottom: 32px;
+  }
+  .hero__inner--services {
+    padding-top: 0;
+  }
+  .hero__ramka-services {
+    margin-top: 0;
+  }
+  .hero__ramka-links { 
+    margin-bottom: 18px;
+  }
   .service-hero__subtitle {
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 12px;
   }
   .service-title, .service-text, .service-subtext {
     font-size: 14px;
@@ -101,11 +149,29 @@
   .services__contact {
     font-size: 14px;
   }
+  .service-sale {
+    margin-bottom: 24px;
+  }
+  .services__text {
+    font-weight: 400;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 140%;
+margin-bottom: 24px;
+
+  }
+  .about__service__inner {
+    margin-bottom: 32px;
+  }
   .about__service-text {
     font-size: 14px;
+    margin-bottom: 16px;
   }
   .price-item__text, .price-item__text-star {
     font-weight: 400;
+    font-size: 14px;
+  }
+  .price-item__title {
     font-size: 14px;
   }
   .question__input, .question__button {

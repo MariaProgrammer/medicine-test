@@ -40,6 +40,7 @@
     width: 100%;
   }
   
+  
   .about__inner {
     align-items: flex-start;
     
@@ -174,6 +175,22 @@
     
     bottom: -552px;
   }
+  .hero__inner {
+    margin-bottom: 60px;
+  }
+  .services__accordion {
+    margin-bottom: 60px;
+  }
+  .reviews__inner {
+    margin-bottom: 60px;
+
+  }
+  .trust__inner{
+    margin-bottom: 60px;
+  }
+  .ratings__inner {
+    margin-bottom: 60px;
+  }
   
   .ratings__inner-card--title {
     font-size: 24px;
@@ -192,7 +209,18 @@
   .ramka-trust {
     padding: 30px 60px;
   }
-  
+  .about__inner {
+    margin-bottom: 60px;
+  }
+  .specialists__inner {
+    margin-bottom: 60px;
+  }
+  .question__inner {
+    margin-bottom: 60px;
+  }
+  .address__inner {
+    margin-bottom: 60px;
+  }
   
   
   .footer__burger {
