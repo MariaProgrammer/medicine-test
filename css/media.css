@@ -637,6 +637,7 @@ font-size: 12px;
   }
 
   .specialists__top--title {
+    padding-top: 0;
     padding-bottom: 24px;
     max-width: 150px;
     line-height: 140%;
