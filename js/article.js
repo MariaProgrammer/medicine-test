@@ -85,114 +85,15 @@ footerPopupButton.addEventListener('click', () => {
 		
 });
 
-
-
-// specialistButtons.forEach((button, i) => {
-// 	button[i].addEventListener('click', (e) => {
-// 		e.preventDefault();
-		
-// 		specialistWindow.classList.add('active');
-// 	})	
-// }) 
-	
-
-//Swiper
-const swiper1 = new Swiper('.swiper1', {
-	direction: 'horizontal',
-	loop: true,
-	slidesPerView: 3,
-	spaceBetween: 30,	
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	breakpoints: {
-    // when window width is >= 320px
-		300: {
-      slidesPerView: 1,
-      spaceBetween: 12
-    },
-   
-    // when window width is >= 480px
-    767: {
-      slidesPerView: 2,
-      spaceBetween: 12
-    },
-    // when window width is >= 640px
-    958: {
-      slidesPerView: 2,
-      spaceBetween: 12
-    },
-		1279: {
-      slidesPerView: 3,
-      spaceBetween: 30
-    }
-  },
-	// pagination:	{
-	// 	el: '.swiper-pagination',
-	// 	clickable: true,
-	// },
-	mousewhell: true,
-	keyboard: true,
-	});
-
-	const swiper2 = new Swiper('.swiper2', {
-		direction: 'horizontal',
-		loop: true,
-		slidesPerView: 1,
-		spaceBetween: 0,	
-		navigation: {
-			nextEl: '.swiper-button-next2',
-			prevEl: '.swiper-button-prev2',
-		},
-		
-		mousewhell: true,
-		keyboard: true,
-		});
-
-		const swiper3 = new Swiper('.swiper3', {
+	const swiperArticle = new Swiper('.swiper-article', {
 			direction: 'horizontal',
 			loop: true,
-			slidesPerView: 4,
-			spaceBetween: 30,	
-			navigation: {	
-				nextEl: '.swiper-button-next3',			
-				prevEl: '.swiper-button-prev3',
-				
-			},
-			breakpoints: {
-				// when window width is >= 320px
-				320: {
-					slidesPerView: 1,
-					spaceBetween: 0
-				},
-				// when window width is >= 480px
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 32
-				},
-				// when window width is >= 640px
-				960: {
-					slidesPerView: 3,
-					spaceBetween: 32
-				},
-				1279: {
-					slidesPerView: 4,
-					spaceBetween: 30
-				}
-			},
-			// pagination:	{
-			// 	el: '.swiper-pagination',
-			// 	clickable: true,
-			// },
-			mousewhell: true,
-			keyboard: true,
-			});
-		const swiper4 = new Swiper('.swiper4', {
-			direction: 'horizontal',
-			loop: true,
+      
+			// effect: 'coverflow',
+      
+      // centeredSlides: true,      
 			slidesPerView: 3,
-			spaceBetween: 54,	
+			spaceBetween: 30,	
 			// navigation: {	
 			// 	nextEl: '.swiper-button-next3',			
 			// 	prevEl: '.swiper-button-prev3',
@@ -204,6 +105,10 @@ const swiper1 = new Swiper('.swiper1', {
 					slidesPerView: 1,
 					spaceBetween: 0
 				},
+				480: {
+					slidesPerView: 1,
+					spaceBetween: 0
+				},
 				// when window width is >= 480px
 				768: {
 					slidesPerView: 2,
@@ -214,6 +119,7 @@ const swiper1 = new Swiper('.swiper1', {
 					slidesPerView: 3,
 					spaceBetween: 30
 				},
+				
 				
 			},
 			// pagination:	{
@@ -267,19 +173,19 @@ const swiper1 = new Swiper('.swiper1', {
 			keyboard: true,
 			});
 
-			const swiperAbout = new Swiper('.swiper-about', {
-				direction: 'horizontal',
-				loop: true,
-				slidesPerView: 1,
-				spaceBetween: 0,	
-				navigation: {
-					nextEl: '.swiper-button-next-about',
-					prevEl: '.swiper-button-prev-about',
-				},
+			// const swiperAbout = new Swiper('.swiper-about', {
+			// 	direction: 'horizontal',
+			// 	loop: true,
+			// 	slidesPerView: 1,
+			// 	spaceBetween: 0,	
+			// 	navigation: {
+			// 		nextEl: '.swiper-button-next-about',
+			// 		prevEl: '.swiper-button-prev-about',
+			// 	},
 				
-				mousewhell: true,
-				keyboard: true,
-				});
+			// 	mousewhell: true,
+			// 	keyboard: true,
+			// 	});
 
 			const swiperFooterWindow = document.querySelector('.swiper-footer--inner')
 			const swiperFooterbtns = document.querySelectorAll('.footer-lisense')
@@ -328,7 +234,6 @@ const swiper1 = new Swiper('.swiper1', {
 			swiperImg3.addEventListener('click', () => {
 				swiperImg3.classList.toggle('active');
 			})
-
 			
 			
 			

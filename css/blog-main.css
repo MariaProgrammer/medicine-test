@@ -13,6 +13,10 @@
   margin-bottom: 32px;
 }
 .submenu__inner {
+  position: relative;
+}
+.hover-menu--article {  
+  top: 3px;
 }
 .article__submenu {
   padding: 0;
@@ -28,7 +32,11 @@
  gap: 30px;  
 }
 .article__card {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+
   background: var(--white);
   border: 1px solid var(--ligth-gray);
   border-radius: 12px;
@@ -36,8 +44,8 @@
   
 }
 .article__card-img-wrap {
-  max-width: 312px;
-  max-height: 274px;  
+  width: 100%;
+  height: 274px;  
   margin-bottom: 16px;
 
 }
