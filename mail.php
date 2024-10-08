@@ -9,15 +9,16 @@ $json = file_get_contents('php://input'); // Получение json строк�
 $data = json_decode($json, true); // Преобразование json
 
 // Данные
-$name = $data['name'];
+// $name = $data['name'];
 $tel = $data['tel'];
-$msg = $data['msg'];
+// $msg = $data['msg'];
 
 // Контент письма
 $title = 'Заявка с сайта'; // Название письма
-$body = '<p>Имя: <strong>'.$name.'</strong></p>'.
-        '<p>Телефон: <strong>'.$tel.'</strong></p>'.
-        '<p>Сообщение: <strong>'.$msg.'</strong></p>';
+$body = '<p>Телефон: <strong>'.$tel.'</strong></p>';
+        
+        // '<p>Имя: <strong>'.$name.'</strong></p>'.
+        // '<p>Сообщение: <strong>'.$msg.'</strong></p>';
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();
