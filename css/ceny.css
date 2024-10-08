@@ -1,0 +1,21 @@
+.ceny-top__inner {
+  position: relative;
+  margin-bottom: 70px;
+}
+.ceny__title {
+  font-weight: 600;
+  font-size: 34px;
+  color: var(--txt-black);
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 479.20px) {
+  .ceny-top__inner {
+    margin-bottom: 32px;
+  }
+  .ceny__title {
+    font-size: 24px;
+  }
+
+}
