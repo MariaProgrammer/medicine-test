@@ -99,7 +99,7 @@ const buttonNikolaeva9s = document.querySelector('.nikolaeva-btn9s')
 specialistWindowCross.addEventListener('click', () => {
   
 	specialistWindow.classList.remove('active');
-  // location.reload()
+  location.reload()
 });
 
 
