@@ -35,4 +35,7 @@
   .text-right {
     margin-bottom: 0;
   }
+  .window-button--lupa {
+    display: none;
+  }
 }
