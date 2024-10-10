@@ -1,4 +1,5 @@
-const specialistWindow = document.querySelector('.vrachi-window__wrap');
+document.addEventListener('DOMContentLoaded', function () {
+  const specialistWindow = document.querySelector('.vrachi-window__wrap');
 const specialistWindowCross = document.querySelector('.vrachi-window__cross');
 const elem = document.querySelector('.vrachi-window__inner');
 
@@ -225,6 +226,10 @@ openGramota(buttonNikolaeva6s,'nastya', 6);
 openGramota(buttonNikolaeva7s,'nastya', 7);
 openGramota(buttonNikolaeva8s,'nastya', 8);
 openGramota(buttonNikolaeva9s,'nastya', 9);
+
+})
+
+
 
 
 

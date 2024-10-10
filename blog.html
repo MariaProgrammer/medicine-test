@@ -231,17 +231,17 @@
     <div class="article__inner">
       <h1 class="article__title">Полезные статьи</h1>
       <div class="submenu__inner article__submenu">
-        <div class="article__ramka-links">
-          <a href="blog.html" class="service-item service-item--last">Все статьи</a>        
-          <a href="implantaciya-zubov.html" class="service-item">Имплантация зубов</a>        
-          <a href="protezirovanie-zubov.html" class="service-item">Протезирование зубов</a>        
-          <a href="restavraciya-zubov.html" class="service-item">Реставрация зубов</a>        
-          <a href="lechenie-zubov.html" class="service-item ">Лечение зубов</a> 
-          <a href="gigiena-i-otbelivanie-zubov.html" class="service-item ">Гигиена и отбеливание зубов</a> 
-        </div>
+        <ul class="article__ramka-links">
+          <li class="service-item service-item--last" data-id="all">Все статьи</li>        
+          <li class="service-item" data-id="implantacia">Имплантация зубов</li>        
+          <li class="service-item" data-id="protezirovanie">Протезирование зубов</li>        
+          <li class="service-item" data-id="restavracia">Реставрация зубов</li>        
+          <li class="service-item" data-id="lechenie">Лечение зубов</li> 
+          <li class="service-item" data-id="gigiena">Гигиена и отбеливание зубов</li> 
+        </>
       </div>
       <div class="article__cards">
-        <div class="article__card">
+        <div class="article__card implantacia show-block" data-order="1">
           <div class="article__card-img-wrap">
             <img src="img/articles/kak_pravilno_vibrat.jpg" alt="" class="article__card-img">
 
@@ -253,7 +253,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card">
+        <div class="article__card protezirovanie show-block" data-order="2">
           <div class="article__card-img-wrap">
             <img src="img/articles/kak_bystro_privyknut.jpg" alt="" class="article__card-img">              
           </div>
@@ -263,7 +263,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card">
+        <div class="article__card restavracia show-block" data-order="3">
           <div class="article__card-img-wrap">
             <img src="img/articles/otkololsya_zub.jpg" alt="" class="article__card-img">
           </div>
@@ -273,7 +273,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>      
-        <div class="article__card article__card--more">
+        <div class="article__card lechenie show-block article__card--more" data-order="4">
           <div class="article__card-img-wrap">
             <img src="img/articles/vipala_plomba.jpg" alt="" class="article__card-img">
           </div>
@@ -283,7 +283,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card article__card--more">
+        <div class="article__card article__card--more gigiena show-block" data-order="5">
           <div class="article__card-img-wrap">
             <img src="img/articles/otbelivanie.jpeg" alt="" class="article__card-img">
           </div>
@@ -293,7 +293,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>
-        <div class="article__card article__card--more">
+        <div class="article__card article__card--more gigiena show-block" data-order="6">
           <div class="article__card-img-wrap">
             <img src="img/articles/prichiny_obrazovania_zubnogo.jpg" alt="" class="article__card-img">
           </div>
@@ -303,7 +303,7 @@
             <img src="img/arr__right.png" alt="" class="article__card-icon">
           </div>          
         </div>      
-        <div class="article__card article__card--more card--more">
+        <div class="article__card article__card--more card--more protezirovanie show-block" data-order="7">
           <div class="article__card-img-wrap">
             <img src="img/articles/kak_pravilno_vibrat.jpg" alt="" class="article__card-img">
           </div>
